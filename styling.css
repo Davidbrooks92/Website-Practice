@@ -33,7 +33,6 @@ aside {
 nav {
     display: flex;
     background-color: black;
-    padding: 10px 0;
     border: 1px solid transparent;
     border-radius: 20px;
 }
@@ -44,7 +43,6 @@ nav a {
     background: yellow;
     color: black;
     margin: 0 5px;
-    padding: 5px 0;
     text-decoration: none;
     border: 1px solid transparent;
     border-radius: 20px;
