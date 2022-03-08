@@ -6,5 +6,5 @@ body {
 }
 
 #top {
-    flex-direction: column;
+    flex-direction: row;
 }
