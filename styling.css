@@ -34,6 +34,7 @@ nav {
     display: flex;
     background-color: black;
     padding: 10px 0;
+    border-radius: 10px;
 }
 
 nav a {
@@ -44,7 +45,7 @@ nav a {
     margin: 0 5px;
     padding: 5px 0;
     text-decoration: none;
-    border-radius: 10px;
+
 }
 
 nav a:hover {
