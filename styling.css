@@ -44,6 +44,7 @@ nav a {
     margin: 0 5px;
     padding: 5px 0;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 nav a:hover {
@@ -81,3 +82,5 @@ nav a:hover {
         flex: 25%;
     }
 }
+
+@media only screen and (max-width: 600px) {}
