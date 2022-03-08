@@ -37,7 +37,7 @@ nav {
 
 nav a {
     flex-direction: row;
-    flex: 10%;
+    flex: 50%;
     text-align: center;
     background: yellow;
     color: black;
