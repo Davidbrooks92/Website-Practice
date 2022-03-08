@@ -32,11 +32,12 @@ aside {
 /* default navigation values */
 nav {
     display: flex;
+    flex-direction: row-reverse;
     background-color: black;
 }
 
 nav a {
-    flex: content;
+    flex: auto;
     text-align: center;
     background: yellow;
     color: black;
