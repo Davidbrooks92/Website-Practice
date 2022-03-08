@@ -1,46 +1,55 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript">
-    var timestamp = '<?= time(); ?>';
+  var timestamp = '<?= time(); ?>';
 
-    function updateTime() {
-        $('#time').html(Date(timestamp));
-        timestamp++;
-    }
-    $(function() {
-        setInterval(updateTime, 1000);
-    });
+  function updateTime() {
+    $('#time').html(Date(timestamp));
+    timestamp++;
+  }
+  $(function() {
+    setInterval(updateTime, 1000);
+  });
 </script>
 <?php
 function template_header($title)
 {
-    date_default_timezone_set('Europe/London');
-    $date = date('m/d/Y h:i:s a', time());
+  date_default_timezone_set('Europe/London');
+  $date = date('m/d/Y h:i:s a', time());
 
-    $weekday = date('l');
+  $weekday = date('l');
 
-    if ($weekday == "Saturday") {
-        $open_from = "09:00";
-        $open_to = "12:00";
-    } elseif ($weekday == "Sunday") {
-        $open_from = "Closed";
-        $open_to = "Closed";
-    } else {
-        $open_from = "09:00";
-        $open_to = "17:00";
-    }
-    $runningTime = date('h:i:s');
+  if ($weekday == "Saturday") {
+    $open_from = "09:00";
+    $open_to = "12:00";
+  } elseif ($weekday == "Sunday") {
+    $open_from = "Closed";
+    $open_to = "Closed";
+  } else {
+    $open_from = "09:00";
+    $open_to = "17:00";
+  }
+  $runningTime = date('h:i:s');
 
-    $openclosed = "";
+  $openclosed = "";
 
 
-    echo <<<EOT
+  echo <<<EOT
     <!DOCTYPE html>
     <link rel="stylesheet" href="styling.css">
     <title>$title</title>
     <body>
+    <div id="top">
     <header>
     <img src="cat_logo.png" alt="CAT Logo" width="300" height="100">
     </header>
+    <nav>
+      <a href="index.php">Home</a>
+      <a href="aboutus.php">About</a>
+      <a href="services.php">Services</a>
+      <a href="jobs.php">Careers</a>
+      <a href="contactus.php">Contact Us</a>
+    </nav>
+    </div>
     <main>
       <article>
         <h2>7 Water-Ma-Trout, Helston Cornwall TR13 0LW</h2>
@@ -50,13 +59,7 @@ function template_header($title)
         <p id="time"></p>
       </aside>
     </main>
-    <nav>
-      <a href="index.php">Home</a>
-      <a href="aboutus.php">About</a>
-      <a href="services.php">Services</a>
-      <a href="jobs.php">Careers</a>
-      <a href="contactus.php">Contact Us</a>
-    </nav>
+    
 EOT;
 }
 ?>
@@ -64,8 +67,8 @@ EOT;
 // Template Footer
 function template_footer()
 {
-    $year = date('Y');
-    echo <<<EOT
+  $year = date('Y');
+  echo <<<EOT
     <footer>
     
 	<?= template_header('Contact Us') ?>
