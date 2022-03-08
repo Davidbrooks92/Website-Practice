@@ -46,7 +46,8 @@ nav a {
     margin: 0 5px;
     padding: 5px 0;
     text-decoration: none;
-
+    border: 1px solid transparent;
+    border-radius: 20px;
 
 }
 
@@ -55,35 +56,3 @@ nav a:hover {
     color: black;
     text-decoration: underline;
 }
-
-/* larger screen */
-@media screen and (min-width: 1000px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        max-width: 75rem;
-        margin: auto;
-    }
-
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        box-sizing: border-box;
-        border-bottom: 0.5rem solid;
-    }
-
-    nav,
-    header {
-        order: -1;
-    }
-
-    article {
-        flex: 75%;
-    }
-
-    aside {
-        flex: 25%;
-    }
-}
-
-@media only screen and (max-width: 600px) {}
