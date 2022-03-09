@@ -57,9 +57,8 @@ function template_header($title)
       </article>
       <aside>
         <p id="time"></p>
-        <p>Open from: $open_from</P>
-        <p>Til: $open_to</P>
-        <p>$weekday</p>
+        <p>$weekday\nOpen from: $open_from\nTil: $open_to</p>
+        
       </aside>
     </main>
     
