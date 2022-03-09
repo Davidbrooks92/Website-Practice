@@ -8,4 +8,7 @@ body {
 #top {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
+
+#top header {}
