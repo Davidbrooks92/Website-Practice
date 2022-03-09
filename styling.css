@@ -12,6 +12,7 @@ body {
 }
 
 #top header nav a {
+    color: white;
     display: flex;
     flex-direction: row;
     background-color: yellow;
