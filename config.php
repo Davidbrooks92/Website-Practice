@@ -57,6 +57,8 @@ function template_header($title)
       </article>
       <aside>
         <p id="time"></p>
+        <p>$runningTime</P>
+        <p>$openclosed</p>
       </aside>
     </main>
     
@@ -68,6 +70,7 @@ EOT;
 function template_footer()
 {
   $year = date('Y');
+
   echo <<<EOT
     <footer>
     
