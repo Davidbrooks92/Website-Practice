@@ -26,11 +26,11 @@ function template_header($title)
     <img src="cat_logo.png" alt="CAT Logo" width="300" height="100">
     </header>
     <nav>
-      <a href="index.php">Home</a>
-      <a href="aboutus.php">About</a>
-      <a href="services.php">Services</a>
-      <a href="jobs.php">Careers</a>
-      <a href="contactus.php">Contact Us</a>
+      <a class="navbar";href="index.php;">Home</a>
+      <a class="navbar";href="aboutus.php;">About</a>
+      <a class="navbar";href="services.php;">Services</a>
+      <a class="navbar";href="jobs.php;">Careers</a>
+      <a class="navbar";href="contactus.php;">Contact Us</a>
     </nav>
     </div>
     <main>
