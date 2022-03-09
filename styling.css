@@ -16,4 +16,5 @@ body {
     display: flex;
     flex-direction: row;
     background-color: yellow;
+    border: 1px;
 }
