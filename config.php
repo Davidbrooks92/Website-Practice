@@ -13,24 +13,7 @@
 <?php
 function template_header($title)
 {
-  date_default_timezone_set('Europe/London');
-  $date = date('m/d/Y h:i:s', time());
 
-  $weekday = date('l');
-
-  if ($weekday == "Saturday") {
-    $open_from = "09:00";
-    $open_to = "12:00";
-  } elseif ($weekday == "Sunday") {
-    $open_from = "Closed";
-    $open_to = "Closed";
-  } else {
-    $open_from = "09:00";
-    $open_to = "17:00";
-  }
-  $runningTime = date('h:i:s');
-
-  $openclosed = "";
 
 
   echo <<<EOT
@@ -56,9 +39,7 @@ function template_header($title)
         <p>Tel: 01326 554063</p>
       </article>
       <aside>
-        <p id="time"></p>
-        <p>$weekday\nOpen from: $open_from\nTil: $open_to</p>
-        
+        <p id="time"></p>        
       </aside>
     </main>
     
