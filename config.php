@@ -57,7 +57,8 @@ function template_header($title)
       </article>
       <aside>
         <p id="time"></p>
-        <p>$runningTime</P>
+        <p>$open_from</P>
+        <p>$open_to</P>
         <p>$weekday</p>
       </aside>
     </main>
