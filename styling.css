@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
 }
 
-#top header nav a {
+#top header nav {
     color: white;
     display: flex;
     flex-direction: row;
