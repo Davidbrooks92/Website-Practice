@@ -3,7 +3,7 @@
   var timestamp = '<?= time(); ?>';
 
   function updateTime() {
-    $('#time').html(timestamp);
+    $('#time').html(Date(timestamp));
     timestamp++;
   }
   $(function() {
