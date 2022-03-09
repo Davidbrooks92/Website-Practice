@@ -14,7 +14,7 @@
 function template_header($title)
 {
   date_default_timezone_set('Europe/London');
-  $date = date('m/d/Y h:i:s a', time());
+  $date = date('m/d/Y h:i:s', time());
 
   $weekday = date('l');
 
