@@ -53,7 +53,7 @@ function template_footer()
   $year = date('Y');
 
   echo <<<EOT
-    <footer class="foot">
+    <footer class="footer">
     
 	<?= template_header('Contact Us') ?>
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10234.11845083172!2d-5.2693913!3d50.1138109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x656537ff3a72993b!2sCornwall%20Auto%20Technics%20Ltd!5e0!3m2!1sen!2suk!4v1644421880679!5m2!1sen!2suk" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

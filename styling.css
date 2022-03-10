@@ -1,4 +1,5 @@
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -21,10 +22,12 @@ body {
     padding: 5px;
 }
 
-.foot {
+.footer {
+    flex: 1;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+
 }
 
 #time {
