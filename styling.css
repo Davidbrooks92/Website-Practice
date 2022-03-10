@@ -21,6 +21,7 @@ body {
     padding: 5px;
 }
 
-footer {
+.foot {
+    display: flex;
     flex-direction: row;
 }
