@@ -20,10 +20,10 @@ function template_header($title)
     <!DOCTYPE html>
     <link rel="stylesheet" href="styling.css">
     <title>$title</title>
-    <header>
+    <header class="header">
     <img src="cat_logo.png" alt="CAT Logo" width="300" height="100">
     </header>
-    <nav>
+    <nav class="nav">
       <a class="navbar" href="index.php">Home</a>
       <a class="navbar" href="aboutus.php">About</a>
       <a class="navbar" href="services.php">Services</a>
