@@ -20,8 +20,6 @@ function template_header($title)
     <!DOCTYPE html>
     <link rel="stylesheet" href="styling.css">
     <title>$title</title>
-    <body>
-    <div id="top">
     <header>
     <img src="cat_logo.png" alt="CAT Logo" width="300" height="100">
     </header>
@@ -32,6 +30,9 @@ function template_header($title)
       <a class="navbar" href="jobs.php">Careers</a>
       <a class="navbar" href="contactus.php">Contact Us</a>
     </nav>
+    <body>
+    <div id="top">
+    
     </div>
     <main>
       <article>
