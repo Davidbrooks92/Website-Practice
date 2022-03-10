@@ -30,7 +30,7 @@ function template_header($title)
       <a class="navbar" href="jobs.php">Careers</a>
       <a class="navbar" href="contactus.php">Contact Us</a>
     </nav>
-    <body>
+    <body class="body">
     <div id="top">
     
     </div>
