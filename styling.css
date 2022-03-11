@@ -40,6 +40,12 @@
     justify-content: flex-end;
 }
 
+#copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -72,5 +78,5 @@ footer {
 footer {
     min-height: 50px;
     max-height: 201px;
-    background: PapayaWhip;
+    background: black;
 }
