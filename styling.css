@@ -21,6 +21,7 @@
     font-size: large;
     padding: 5px;
     width: 80%;
+    text-align: center;
 }
 
 .footer {
@@ -46,7 +47,7 @@
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 50%;
     height: 50%;
 }
