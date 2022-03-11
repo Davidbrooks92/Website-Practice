@@ -23,6 +23,7 @@
 }
 
 .footer {
+    margin-bottom: 0%;
     flex: 1 0 auto;
     display: flex;
     justify-content: space-between;
