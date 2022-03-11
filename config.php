@@ -22,7 +22,7 @@ function template_header($title)
     <title>$title</title>
     <div class="topcontainer">
     <header class="header">
-    <img src="cat_logo.png" alt="CAT Logo" width="300" height="100">
+    <img src="cat_logo.png" alt="CAT Logo" width="30%" height="20%">
     </header>
     <nav class="nav">
       <a class="navbar" href="index.php">Home</a>
