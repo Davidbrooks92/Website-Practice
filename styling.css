@@ -54,3 +54,8 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.imgheader {
+    height: 10%;
+    width: 30%;
+}
