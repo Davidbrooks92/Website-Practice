@@ -20,6 +20,7 @@
     text-decoration: none;
     font-size: large;
     padding: 5px;
+    width: 100%;
 }
 
 .footer {
@@ -46,6 +47,7 @@
     display: flex;
     flex-direction: row;
     width: 50%;
+    height: 10%;
 }
 
 .topcontainer {
