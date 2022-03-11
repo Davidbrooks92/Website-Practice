@@ -26,7 +26,6 @@
 }
 
 .footer {
-    margin-bottom: 0%;
     flex: 1 0 auto;
     display: flex;
     justify-content: space-between;
@@ -57,108 +56,4 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-*,
-:after :before {
-    box-sizing: inherit;
-}
-
-.xm {
-    font-size: 16px;
-    position: relative;
-}
-
-.imgheader {
-    width: 40%;
-}
-
-.xm__shortcut {
-    position: fixed;
-    top: 40%;
-    background: #cf1718;
-    padding: 0.5em 1.5em;
-    -webkit-transform: rotate(-90deg) translateX(25%);
-    transform: rotate(-90deg) translateX(25%);
-    color: white;
-    -webkit-transform-origin: 100% 100%;
-    transform-origin: 100% 100%;
-    opacity: 0;
-    width: auto;
-    -webkit-transition: all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
-    right: -4em;
-    z-index: 999;
-}
-
-.xm__shortcut--active {
-    right: 0;
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: rotate(-90deg) translateX(25%);
-    transform: rotate(-90deg) translateX(25%);
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
-    width: auto;
-    cursor: pointer;
-}
-
-.xm__outer {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.83);
-    z-index: 100;
-    opacity: 0;
-    visibility: collapse;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-}
-
-.xm--generic-style .xm__inner-block {
-    background-color: #fff;
-}
-
-.xm__inner-block {
-    width: 65em;
-    max-width: 75vw;
-    position: relative;
-    overflow: hidden;
-    padding: 4em 3em;
-}
-
-.xm *,
-.xm *::before,
-.xm *::after {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.xm--generic-style .xm__inner {
-    color: #232323;
-}
-
-.xm__inner {
-    position: relative;
-    color: #fff;
-}
-
-.xm *::before,
-.xm *::after {
-    content: none;
 }

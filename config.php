@@ -36,44 +36,7 @@ function template_header($title)
     <div id="top">
     
     </div>
-    <div class="xm xm--generic-style">
-      <div class="xm__outer">
-        <div class="xm__inner">
-          <div class="xm__close-btn">
-            <span>
-            ::before
-            ::after
-            </span>
-          </div>
-          <div id="modal" class="xm__inner-block">
-            <div class="xm__decorations xm__decorations--upper"></div>
-              <h2 class="xm__headline">Covid-19 Update</h2>
-              <div class="xm__text-content">
-                <p>We are delighted to announce both our Helston and Penzance offices are open.</p>
-                <p></p><p>&nbsp;</p>
-                <p>We have put in place social distancing measures and PPE for your safety and protection.</p>
-                <p>&nbsp;</p>
-                <p>We aim to make all transactions as easy as possible and keep contact to a minimum in terms of time spent with us,this will not reduce the excellent customer care we deliver.</p>
-                <p>&nbsp;</p>
-                <p>We look forward to interacting with you be it in person on the phone by email or video call.</p>
-                <p>&nbsp;</p>
-                <p>All of us here hope you are safe and well.</p>
-                <p>&nbsp;</p>
-                <p>Best wishes from us all at Chris Nicholls Motors</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>            
-                </div>
-            <div class="xm__bg-img">
-            </div>
-            <div class="xm__bells-icon">
-            </div>
-            <div class="xm__decorations xm__decorations--lower">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="xm__shortcut xm__shortcut--active" style="color:">Covid-19 Update</div>
-    </div>
+    
     <main>
       <article>
         <h2>7 Water-Ma-Trout, Helston Cornwall TR13 0LW</h2>
