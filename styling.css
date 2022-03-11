@@ -44,7 +44,8 @@
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    height: 5%;
+    width: 5%;
 }
 
 .topcontainer {
