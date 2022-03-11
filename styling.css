@@ -67,3 +67,8 @@ body {
 footer {
     margin-top: auto;
 }
+
+footer {
+    min-height: 50px;
+    background: PapayaWhip;
+}
