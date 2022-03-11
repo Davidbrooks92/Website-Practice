@@ -1,9 +1,10 @@
 .body {
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: black;
     color: yellow;
+    margin: 0;
 }
 
 #top {
@@ -56,4 +57,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
 }
