@@ -33,30 +33,21 @@ function template_header($title)
     <link rel="stylesheet" href="styling.css">
     <title>$title</title>
     <div class="topnav">
-      <a href="#home" class="active">Logo</a>
+      <a href="#home" class="active"><img class="imgheader" src="cat_logo.png" alt="CAT Logo"></a>
        <!-- Navigation links (hidden by default) -->
      <div id="myLinks">
-        <a href="#news">News</a>
-         <a href="#contact">Contact</a>
-         <a href="#about">About</a>
+        <a class="navbar" href="index.php">Home</a>
+      <a class="navbar" href="aboutus.php">About</a>
+      <a class="navbar" href="services.php">Services</a>
+      <a class="navbar" href="jobs.php">Careers</a>
+      <a class="navbar" href="contactus.php">Contact Us</a>
      </div>
      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
        <i class="fa fa-bars"></i>
       </a>
     </div>
-    <div class="topcontainer">
-    <header class="header">
-    <img class="imgheader" src="cat_logo.png" alt="CAT Logo">
-    </header>
-    <nav class="nav">
-      <a class="navbar" href="index.php">Home</a>
-      <a class="navbar" href="aboutus.php">About</a>
-      <a class="navbar" href="services.php">Services</a>
-      <a class="navbar" href="jobs.php">Careers</a>
-      <a class="navbar" href="contactus.php">Contact Us</a>
-    </nav>
-    </div>
+    
     <body class="body">
      
     
