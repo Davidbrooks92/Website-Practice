@@ -30,29 +30,21 @@ function template_header($title)
 
   echo <<<EOT
     <!DOCTYPE html>
-    <link rel="stylesheet" href="styling.css">
-    
-    <title>$title</title>
-    <div class="topnav">
-      <a href="#home" class="active"><img class="imgheader" src="cat_logo.png" alt="CAT Logo"></a>
-       <!-- Navigation links (hidden by default) -->
-     <div id="myLinks">
-        <a class="navbar" href="index.php">Home</a>
-      <a class="navbar" href="aboutus.php">About</a>
-      <a class="navbar" href="services.php">Services</a>
-      <a class="navbar" href="jobs.php">Careers</a>
-      <a class="navbar" href="contactus.php">Contact Us</a>
-     </div>
-     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-       <i class="fa fa-bars"></i>
-      </a>
-    </div>
-    
+    <head>
+      <link rel="stylesheet" href="styling.css">
+      <title>$title</title>
+      <div class="topnav">
+        <a href="#home" class="active"><img class="imgheader" src="cat_logo.png" alt="CAT Logo"></a>
+        <div id="myLinks">
+          <a class="navbar" href="index.php">Home</a>
+          <a class="navbar" href="aboutus.php">About</a>
+          <a class="navbar" href="services.php">Services</a>
+          <a class="navbar" href="jobs.php">Careers</a>
+          <a class="navbar" href="contactus.php">Contact Us</a>
+        </div>
+      </div>
+    </head>
     <body class="body">
-     
-    
-    
     
 EOT;
 }
@@ -64,7 +56,7 @@ function template_footer()
   $year = date('Y');
 
   echo <<<EOT
-    
+
 </body>
 <footer class="footer">
   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10234.11845083172!2d-5.2693913!3d50.1138109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x656537ff3a72993b!2sCornwall%20Auto%20Technics%20Ltd!5e0!3m2!1sen!2suk!4v1644421880679!5m2!1sen!2suk" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy">
