@@ -77,6 +77,12 @@ iframe #copy {
     justify-content: flex-end;
 }
 
+iframe {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 /* Mobile menu */
 .menu {
     display: flex;
