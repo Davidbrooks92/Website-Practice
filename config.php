@@ -1,4 +1,3 @@
-<script src="script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript">
@@ -12,12 +11,12 @@
       menu.classList.remove("active");
 
       // adds the menu (hamburger) icon
-      toggle.querySelector("a").innerHTML = "<i class=’fas fa-bars’></i>";
+      toggle.querySelector("a").innerHTML = "<i class='fas fa-bars'></i>";
     } else {
       menu.classList.add("active");
 
       // adds the close (x) icon
-      toggle.querySelector("a").innerHTML = "<i class=’fas fa-times’></i>";
+      toggle.querySelector("a").innerHTML = "<i class='fas fa-times'></i>";
     }
   }
 
