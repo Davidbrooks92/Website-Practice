@@ -45,7 +45,7 @@ function template_header($title)
           <li class="item has-submenu">
             <a tabindex="0">Services</a>
             <ul class="submenu">
-              <li class"subitem"><a href="services.php">Services</a></li>
+              <li class="subitem"><a href="services.php">Services</a></li>
               <li class="subitem"><a href="#">Development</a></li>
               <li class="subitem"><a href="#">SEO</a></li>
               <li class="subitem"><a href="#">Copywriting</a></li>
