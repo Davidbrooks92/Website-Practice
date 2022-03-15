@@ -59,29 +59,15 @@ a {
 
 }
 
-#copy {
+.bottomstuff {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-#time {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
 
-iframe #copy {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
 
-iframe {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
+
 
 /* Mobile menu */
 .menu {
