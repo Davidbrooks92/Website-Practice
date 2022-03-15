@@ -82,13 +82,17 @@ footer {
 }
 
 .imgheader {
-    height: 200px;
+    height: 100px;
 }
 
 .topnav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.topnav #myLinks {
+    display: none;
 }
 
 @media only screen and (max-width: 480px) {
