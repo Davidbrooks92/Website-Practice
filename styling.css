@@ -71,7 +71,7 @@ a {
     justify-content: flex-end;
 }
 
-iframe {
+iframe #copy {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
