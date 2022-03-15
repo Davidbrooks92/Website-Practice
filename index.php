@@ -4,6 +4,8 @@ include "config.php";
 ?>
 
 <?= template_header('Home') ?>
+<div class="mainbody">
+    <p>Hello</p>
+</div>
 
-<p>Hello</p>
 <?= template_footer() ?>
