@@ -85,6 +85,12 @@ footer {
     height: 200px;
 }
 
+#topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 @media only screen and (max-width: 480px) {
 
     /* Style the navigation menu */
