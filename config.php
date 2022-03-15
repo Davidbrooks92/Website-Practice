@@ -32,20 +32,27 @@ function template_header($title)
     <!DOCTYPE html>
     <head>
       <link rel="stylesheet" href="styling.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+      <script src="script.js"></script>
       <title>$title</title>
-      <div class="topnav">
-        <a href="#home" class="active"><img class="imgheader" src="cat_logo.png" alt="CAT Logo"></a>
-        <div id="myLinks">
-          <a class="navbar" href="index.php">Home</a>
-          <a class="navbar" href="aboutus.php">About</a>
-          <a class="navbar" href="services.php">Services</a>
-          <a class="navbar" href="jobs.php">Careers</a>
-          <a class="navbar" href="contactus.php">Contact Us</a>
-        </div>
-      </div>
+      <nav>
+        <ul class="menu">
+          <li class="logo"><a><img src="cat_logo.png" alt="CAT Logo"></a></li>
+          <li class="item"><a href="index.php">Home</a></li>
+          <li class="item"><a href="aboutus.php">About</a></li>
+          <li class="item"><a href="jobs.php">Careers</a></li>
+          <li class="item"><a href="contactus.php">Contact Us</a></li>
+          <li class="item has-submenu">
+            <a tabindex="0">Services</a>
+            <ul class="submenu">
+              <li class"subitem"><a href="services.php">Services</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
     </head>
     <body class="body">
-    
+
 EOT;
 }
 ?>
