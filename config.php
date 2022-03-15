@@ -131,7 +131,7 @@ function template_footer()
   $year = date('Y');
 
   echo <<<EOT
-
+<script src="script.js"></script>
 </body>
 <footer class="footer">
   <div class="bottomstuff">
