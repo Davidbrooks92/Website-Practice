@@ -96,6 +96,14 @@ footer {
     display: none;
 }
 
+.fa {
+    font-size: 50px;
+}
+
+.fa fa-bars {
+    font-size: 50px;
+}
+
 @media only screen and (max-width: 393px) {
 
     /* Style the navigation menu */
@@ -139,12 +147,5 @@ footer {
     .active {
         background-color: #04AA6D;
         color: white;
-    }
-
-    .fa {
-        font: normal normal normal 20px/1 FontAwesome;
-        font-size: 50px;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
     }
 }
