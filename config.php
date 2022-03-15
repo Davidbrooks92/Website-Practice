@@ -37,7 +37,7 @@ function template_header($title)
       <title>$title</title>
       <nav>
         <ul class="menu">
-          <li class="logo"><a><img src="cat_logo.png" alt="CAT Logo"></a></li>
+          <li class="logo"><a><img src="cat_logo.png" alt="CAT Logo" style="height:50px;"></a></li>
           <li class="item"><a href="index.php">Home</a></li>
           <li class="item"><a href="aboutus.php">About</a></li>
           <li class="item"><a href="jobs.php">Careers</a></li>
