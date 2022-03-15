@@ -85,7 +85,7 @@ footer {
     height: 200px;
 }
 
-#topnav {
+.topnav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
