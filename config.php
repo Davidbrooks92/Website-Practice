@@ -31,6 +31,7 @@ function template_header($title)
   echo <<<EOT
     <!DOCTYPE html>
     <link rel="stylesheet" href="styling.css">
+    
     <title>$title</title>
     <div class="topnav">
       <a href="#home" class="active"><img class="imgheader" src="cat_logo.png" alt="CAT Logo"></a>
