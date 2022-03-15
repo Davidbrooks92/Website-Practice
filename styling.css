@@ -120,7 +120,7 @@ footer {
 
     /* Style the hamburger menu */
     .topnav a.icon {
-        background: black;
+        background: yellow;
         display: block;
         position: absolute;
         right: 0;
