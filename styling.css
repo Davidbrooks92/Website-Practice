@@ -247,3 +247,17 @@ a {
     padding: 5px;
     height: 100vh;
 }
+
+.subbody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subsubbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
