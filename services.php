@@ -4,7 +4,7 @@ include "config.php";
 ?>
 
 <?= template_header('Services') ?>
-<div>
+<div class="mainbody">
     <ul>
         <li>
             Our Services

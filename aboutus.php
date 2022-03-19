@@ -5,5 +5,7 @@ include "config.php";
 
 <?= template_header('About Us') ?>
 
-<p>hi</p>
+<div class="mainbody">
+
+</div>
 <?= template_footer() ?>
