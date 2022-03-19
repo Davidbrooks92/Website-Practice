@@ -238,3 +238,9 @@ a {
         border-radius: 0;
     }
 }
+
+.mainbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
